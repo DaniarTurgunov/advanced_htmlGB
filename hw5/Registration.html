@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/8dbfe16e3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="top__container center">
+        <div class="logo">
+            <a href="#">
+                <img src="images/Group-2.png" alt="logo">
+            </a>
+            <button><img src="images/Forma-2.svg" alt="search"></button>
+        </div>
+        <div class="head__buttons">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle"><img class="bar" src="images/bars.svg" alt="bars">
+                    </label>
+                <ul class="menu__box">
+                    <li>
+                        <h2>MENU</h2>
+                    </li>
+                    <li>
+                        <h3>MAN</h3>
+                    </li>
+                    <li><a class="menu__item" href="#m_accessories">Accessories</a></li>
+                    <li><a class="menu__item" href="#m_bags">Bags</a></li>
+                    <li><a class="menu__item" href="#m_denim">Denim</a></li>
+                    <li><a class="menu__item" href="#m_t-shirts">T-Shirts</a></li>
+                    <li>
+                        <h3>WOMAN</h3>
+                    </li>
+                    <li><a class="menu__item" href="#w_accessories">Accessories</a></li>
+                    <li><a class="menu__item" href="#w_jackets&coats">Jackets & Coats</a></li>
+                    <li><a class="menu__item" href="#w_polos">Polos</a></li>
+                    <li><a class="menu__item" href="#w_t-shirts">T-Shirts</a></li>
+                    <li><a class="menu__item" href="#w_shirts">Shirts</a></li>
+                    <li>
+                        <h3>KIDS</h3>
+                    </li>
+                    <li><a class="menu__item" href="#k_accessories">Accessories</a></li>
+                    <li><a class="menu__item" href="#k_jackets&coats">Jackets & Coats</a></li>
+                    <li><a class="menu__item" href="#k_polos">Polos</a></li>
+                    <li><a class="menu__item" href="#k_t-shirts">T-Shirts</a></li>
+                    <li><a class="menu__item" href="#k_shirts">Shirts</a></li>
+                    <li><a class="menu__item" href="#k_bags">Bags</a></li>
+                </ul>
+            </div>
+            <button><img class="prof" src="images/Forma-1.svg" alt="profile"></button>
+            <button><img src="images/Group-35.svg" alt="cart"></button>
+        </div>
+    </header>
+    <header class="top-head center">
+        <div class="top-head__box">
+            <h1>REGISTRATION</h1>
+        </div>
+    </header>
+    <main class="main-block center registr">
+        <div class="main-left">
+            <div class="registration">
+                <div class="registration__window">
+                    <h3 class="registration_title">Your Name</h3>
+                    <form action="registrate">
+                        <input type="text" id="fname" name="name" placeholder="First Name">
+                        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                </div>
+                <div class="registration__gender">
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <input class="other" type="radio" id="other" name="gender" value="Other">
+                    <label class="other" for="other">Other</label>
+                </div>
+                <div class="registration__login">
+                    <h3 class="registration_title">Login details</h3>
+                    <form action="autorization">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        <p class="registration__login_text">
+                            Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters
+                        </p>
+                        <input type="submit" value="JOIN NOW &rarr;">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="loyality">
+                <h3 class="loyality__text titleh3">LOYALTY HAS ITS PERKS</h3>
+                <p class="loyality__text">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                <p class="loyality__text loyality__text_plus"><img class="tick" src="images/tick.svg" alt="tick"> 15% off welcome offer</p>
+                <p class="loyality__text loyality__text_plus"><img class="tick" src="images/tick.svg" alt="tick"> Free shipping, returns and exchanges on all orders</p>
+                <p class="loyality__text loyality__text_plus"><img class="tick" src="images/tick.svg" alt="tick"> $10 off a purchase on your birthday</p>
+                <p class="loyality__text loyality__text_plus"><img class="tick" src="images/tick.svg" alt="tick"> Early access to products</p>
+                <p class="loyality__text loyality__text_plus"><img class="tick" src="images/tick.svg" alt="tick"> Exclusive offers & rewards</p>
+            </div>
+        </div>
+    </main>
+    <div class="under-footer ">
+        <div class="uf ">
+            <div class="uf-left ">
+                <img src="images/Intersect.png " alt="imgh " class="profile ">
+                <p class="text-l ">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+            </div>
+            <div class="uf-right ">
+                <h2>SUBSCRIBE</h2>
+                <p class="text-r ">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form method="# ">
+                    <input type="email " placeholder="Enter Your Email ">
+                    <button type="submit ">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer center ">
+        <div class="footer-nav ">
+            <p class="text-ftr ">© 2023 Brand All Rights Reserved.</p>
+            <div class="footer-nav-icons ">
+                <a href="# " class="ft-icons "><i class="fa-brands fa-pinterest-p " style="color: #000000; "></i></a>
+                <a href="# " class="ft-icons "><i class="fa-brands fa-twitter " style="color: #000000; "></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html
