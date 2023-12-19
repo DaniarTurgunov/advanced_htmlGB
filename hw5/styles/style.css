@@ -1329,9 +1329,263 @@ img {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  .center {
+    width: 100%;
+  }
+  .top__container {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .top__container .head__buttons {
+    padding-right: 16px;
+    justify-content: flex-end;
+  }
+  .top__container .head__buttons button {
+    display: none;
+  }
+  .top-head {
+    padding: 24px 24px 49px;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .top {
+    height: 363px;
+  }
+  .top__title {
+    margin-right: 0;
+  }
+  .top__title .title {
+    font-size: 38px;
+  }
+  .top__title .subtitle {
+    font-size: 20px;
+  }
+  .top img {
+    display: none;
+  }
+  .container {
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .container .top__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    margin: auto;
+    margin-top: 64px;
+    gap: 32px;
+  }
+  .container .top__cards .top__card img {
+    width: 100%;
+  }
+  .container .top__cards .top__card__big {
+    grid-area: 4/1/5/2;
+    height: 111px;
+  }
+  .container .products .all__cards {
+    grid-template-columns: 1fr;
+  }
+  .container .products .all__cards .product__card img {
+    width: 100%;
+  }
+  .container .products .main__title h3 {
+    color: #222;
+    font-family: "Lato";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .container .products .main__title p {
+    color: #9F9F9F;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .products .all__cards {
+    grid-template-columns: 1fr;
+  }
+  .products .all__cards .product__card img {
+    width: 100%;
+  }
+  .top-head {
+    padding: 0%;
+  }
+  .top-head__box {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-head__box h1 {
+    margin-bottom: 32px;
+  }
+  .main-swipe .swiper {
+    height: 624px;
+  }
+  .main-swipe .swiper-slide img {
+    height: 454px;
+  }
+  .main-swipe .main-product {
+    height: 600px;
+  }
+  .main-swipe .main-product__info__text {
+    width: 326px;
+  }
+  .main-swipe .main-product__info__features {
+    margin: 48px 0 64px;
+  }
+  .main-swipe .main-product__info__features button {
+    color: #6F6E6E;
+    font-family: "Lato";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .main-block {
+    gap: 0;
+  }
+  .main-block .block .filter-sort {
+    margin-top: 24px;
+    padding-top: 0px;
+    height: auto;
+  }
+  .main-block .block .filter-sort .filter {
+    margin-right: 70px;
+    width: auto;
+  }
+  .main-block .block .filter-sort .filter svg {
+    width: 37px;
+    height: 25px;
+  }
+  .main-block .block .filter__heading {
+    display: none;
+  }
+  .main-block .block .sort__wrapper {
+    color: #6F6E6E;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 42px;
+    gap: 24px;
+  }
+  .main-block .catalog {
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  .main-block .catalog .all__cards {
+    margin-top: 0;
+  }
+  .main-block .pagination {
+    margin-bottom: 64px;
+  }
+  .main-block {
+    flex-direction: column;
+  }
+  .main-block .main-left {
+    display: grid;
+    justify-content: center;
+  }
+  .main-block .main-left .but-l {
+    justify-content: space-around;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 48px;
+  }
+  .main-block .main-left .but-l button {
+    height: 33px;
+    width: 175px;
+    font-size: 12px;
+    padding: 9px 18px;
+  }
+  .main-block .main-left .prod-card {
+    width: 357px;
+    height: 188px;
+    margin-top: 32px;
+  }
+  .main-block .main-left .prod-card .pc-l img {
+    height: 188px;
+  }
+  .main-block .main-left .prod-card .pc-r-head {
+    gap: 31px;
+    margin-bottom: 0;
+  }
+  .main-block .main-left .prod-card .pc-r-head h3 {
+    width: 143px;
+    margin-bottom: 26px;
+    font-size: 16px;
+    margin-top: 13px;
+  }
+  .main-block .main-left .prod-card .pc-r-head svg {
+    width: 9px;
+    height: 11px;
+  }
+  .main-block .main-left .prod-card .pc-r-head button {
+    margin-right: 12px;
+    margin-top: 17px;
+  }
+  .main-block .main-left .prod-card .pc-r p {
+    font-size: 14px;
+  }
+  .main-block .main-left .prod-card .pc-r span {
+    font-size: 14px;
+  }
+  .main-block .main-left .prod-card .pc-r-input {
+    gap: 15px;
+  }
+  .main-block .main-left .prod-card .pc-r-input input {
+    width: 24px;
+    height: 15px;
+  }
+  .main-block .main-right {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .main-block .main-right .mr-adress {
+    margin-bottom: 48px;
+  }
+  .main-block .main-right .mr-adress h3 {
+    margin-top: 0;
+  }
+  .main-block .main-right .total__price-box {
+    margin-bottom: 96px;
+  }
+  .registr {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .registr .main-left .registration__window {
+    margin-top: 40px;
+  }
+  .registr .main-left .registration__login {
+    margin-bottom: 0;
+  }
+  .registr .main-right .loyality {
+    margin-top: 40px;
+    margin-bottom: 96px;
+  }
+  .registr .main-right .loyality .loyality__text {
+    font-size: 16px;
+  }
+  .bottom .bottom-plus {
+    min-width: 320px;
+    height: 610px;
+    gap: 46px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .bottom .bottom-plus .plus-card {
+    margin-top: 0;
+  }
   .under-footer {
     height: 550px;
-    width: 375px;
+    min-width: 375px;
   }
   .under-footer .uf {
     height: 550px;
@@ -1342,7 +1596,7 @@ img {
     gap: 48px;
   }
   .under-footer .uf .uf-left {
-    width: 343px;
+    width: 341px;
     height: 194px;
     justify-content: space-between;
   }
@@ -1373,17 +1627,23 @@ img {
     width: 95.7px;
     height: 47px;
   }
-  .footer-nav {
+  .footer {
+    height: 143px;
+    justify-content: center;
+  }
+  .footer .footer-nav {
     width: 375px;
     height: 143px;
     flex-direction: column-reverse;
+    justify-content: center;
   }
-  .footer-nav p {
+  .footer .footer-nav p {
     margin-left: 0px;
     margin-bottom: 9px;
   }
-  .footer-nav .footer-nav-icons {
+  .footer .footer-nav .footer-nav-icons {
     margin-right: 0px;
     margin-top: 43px;
+    margin-bottom: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
